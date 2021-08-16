@@ -1,0 +1,170 @@
+body {
+	font-family:  Arial ,sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color: #000;
+	background: #cbbcb1;
+}
+a { 
+      text-decoration: none; color: #556052; font-size: 1em; padding: 1px 2px; 
+}
+a:hover 
+{ 
+   background-color: #bedbbb; 
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 44px;	
+}
+
+h2 {
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 28px;
+	text-align:left;
+}
+
+h3{
+
+	color: #ffff99;
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:center;
+   
+}
+h4 {
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 20px;
+	font-weight:normal;
+}
+h5 {
+	color: #ffffff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 16px;
+	font-weight:normal;
+}
+h6{
+
+	color: #f2efea;
+	font-family: 'Arial', 'Raleway',sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align:center;
+}
+
+}
+
+p {
+	color: #f8f8f8;
+	font-family: 'Raleway',sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#header { 
+    background-color:#8DB596;
+	margin:80px 800px 10px 10px;
+	padding:20px;
+}
+	
+#content {
+	background-color:#92817A;
+	margin:10px 10px 10px 10px;
+	padding:10px;
+	
+}
+	
+    #con {position:relative;
+	margin-left:15em;
+	background-color:#92817a
+	font-size:30px; !important
+}
+
+#marginNote {position:absolute; 
+top=0; left:2em;width 4em;
+background-color:#8db596
+
+}
+td{  padding:30px;
+}
+
+.bigNum { float:left ;font-size: 40px; font-weight:normal}
+
+nav {position:relative;
+	margin-left:15em;
+	margin-top:5em;
+	background-color:#92817a
+	!important
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 90px;
+  width: 280px;
+}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 85px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #cbbcb1;
+}
+
+.form-container input[type=text], .form-container input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: white;
+}
+
+
+.form-container input[type=text]:focus, .form-container input[type=email]:focus {
+  background-color: #f2d9d9;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  right: 210px;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

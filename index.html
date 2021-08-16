@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=iso-8859-1" />
+
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	 
+</head>
+
+<body >
+   
+          <div id="marginNote">
+           
+              <table align="center">
+             
+              <tr><td align=center><a href="index.html"> Home  </a> </td></tr>
+                
+              <tr><td  align=center><a href="add.php">  Add plant  </a></td></tr>  
+              
+              <tr> <td  align=center><a href="search.php">Search  plant</a></td> </tr>
+            
+             <tr> <td  align=center> <a href="contectus.php"> Contect Us  </a></td></tr>
+ 	        
+			 <tr> <td  align=center><a href="about.html"> About</a></td> </tr>
+             
+              </table>
+             
+             </div>
+     
+           <nav>
+                
+                <img src="images/ph1.png" alt="ph1"  height="540" width="610" style="float:right"/>
+     <h1>  &nbsp; &nbsp; &nbsp;   Our Plants </h1>  <pre><h6>Here we try to understand green nature
+   We can exchange information on plants browse and read.</h6>
+ 
+ 
+ 
+ 
+ <h3> &nbsp; Help us add more concepts and information</h3></p>
+ 
+  </pre>
+
+      </nav>
+  
+
+
+
+<button class="open-button" onclick="openForm()">subsecribe</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Subscribe</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+
+    <button type="submit" class="btn">Subscribe</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+</body>
+</html>
