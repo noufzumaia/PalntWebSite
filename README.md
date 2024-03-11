@@ -1,4 +1,5 @@
 # PalntWebSite
+For Web Depvolopment class in SEU , built with php and php myAdmin as database 
 ![image](https://user-images.githubusercontent.com/66878203/129627896-3b24e27f-20fb-44d4-bc0d-fcf9c555d4cc.png)
 ![image](https://user-images.githubusercontent.com/66878203/129628072-b882747f-5631-4af3-a34f-d6faf41303b3.png)
 ![image](https://user-images.githubusercontent.com/66878203/129628098-d78f13f5-f201-4c32-8d0f-f963bd106987.png)
